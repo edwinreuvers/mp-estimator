@@ -13,7 +13,7 @@ This repository contains a toolbox (+ example scripts) to estimate muscle proper
 -   [Citation](#citation)
 -   [Contact / Support](#contact--support)
 
-## Installation {#installation}
+## Installation
 
 1.  **Download the folder** `mp_estimator`.
 
@@ -36,7 +36,7 @@ pip install -e .
 from mp_estimator import estimate, loaddata
 ```
 
-## Usage {#usage}
+## Usage
 
 The open-source toolbox automates muscle parameter estimation using data from quick-release, step-ramp, and isometric experiments. Our associated manuscript demonstrates that accuracy improves when correcting for CE shortening during quick-release. However, this requires both quick-release and step-ramp data. Recognising that some users may only have one type of data, we designed the toolbox with flexibility. The toolbox offers the following options:
 
@@ -255,7 +255,7 @@ estpar,dataACTout = estimate.act(dataISOM,defpar,estpar)
     -   *fseeMdl:* Model-predicted SEE force.
     -   *tStim:* List containing stimulation onset and offset times.
 
-## Citation {#citation}
+## Citation
 
 If you use this toolbox in your research or projects, please cite the [paper](https://doi.org/10.1101/2025.09.29.678508):
 

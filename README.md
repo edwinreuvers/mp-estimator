@@ -282,5 +282,5 @@ If you use this toolbox in your research or projects, please cite the [paper](ht
 
 If you have questions, run into issues, or need help using the toolbox, you can reach out to me:
 
--   **GitHub Issues:** <https://github.com/username/repository/issues>\
+-   **GitHub Issues:** <https://github.com/edwinreuvers/repository/issues>
 -   **Bluesky:** <https://bsky.app/profile/edwinreuvers.bsky.social>

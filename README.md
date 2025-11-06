@@ -9,6 +9,7 @@ This repository contains a toolbox (+ example scripts) to estimate muscle proper
 ## Table of Contents
 
 -   [Installation](#installation)
+-   [Dependencies](#dependencies)
 -   [Usage](#usage)
 -   [Citation](#citation)
 -   [Contact / Support](#contact--support)
@@ -35,6 +36,14 @@ pip install -e .
 ``` python
 from mp_estimator import estimate, loaddata
 ```
+
+## Dependencies
+
+This toolbox requires the following Python packages:
+
+- [NumPy](https://numpy.org/)  
+- [SciPy](https://www.scipy.org/)  
+- [pandas](https://pandas.pydata.org/)
 
 ## Usage
 
